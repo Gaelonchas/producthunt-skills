@@ -1,0 +1,164 @@
+{
+  "name": "producthunt-launch-skills",
+  "owner": {
+    "name": "Yoan Bernabeu",
+    "email": "contact@yoandev.co"
+  },
+  "metadata": {
+    "description": "Comprehensive skills collection for launching products on Product Hunt - from strategy to post-launch optimization",
+    "version": "1.0.0",
+    "repository": "https://github.com/yoanbernabeu/producthunt-skills"
+  },
+  "plugins": [
+    {
+      "name": "ph-strategy",
+      "description": "Strategic planning skills for Product Hunt launches: timing, objectives, competitor analysis",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/strategy/ph-launch-strategy",
+        "./skills/strategy/ph-competitor-analysis",
+        "./skills/strategy/ph-timing-optimizer"
+      ]
+    },
+    {
+      "name": "ph-content",
+      "description": "Content creation skills: taglines, descriptions, maker comments, thumbnails, galleries, videos",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/content/ph-tagline-writer",
+        "./skills/content/ph-description-writer",
+        "./skills/content/ph-maker-comment",
+        "./skills/content/ph-thumbnail-creator",
+        "./skills/content/ph-gallery-assets",
+        "./skills/content/ph-video-demo"
+      ]
+    },
+    {
+      "name": "ph-marketing",
+      "description": "Marketing and outreach skills: email campaigns, social media, community engagement",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/marketing/ph-email-strategy",
+        "./skills/marketing/ph-social-media-launch",
+        "./skills/marketing/ph-community-outreach",
+        "./skills/marketing/ph-supporter-network"
+      ]
+    },
+    {
+      "name": "ph-launch-day",
+      "description": "Launch day execution skills: checklists, comment responses, real-time monitoring",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/launch-day/ph-launch-day-checklist",
+        "./skills/launch-day/ph-comment-responder",
+        "./skills/launch-day/ph-real-time-monitor"
+      ]
+    },
+    {
+      "name": "ph-compliance",
+      "description": "Risk prevention and compliance skills: avoiding bans, understanding algorithm, safe messaging",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/compliance/ph-ban-prevention",
+        "./skills/compliance/ph-algorithm-guide",
+        "./skills/compliance/ph-safe-messaging"
+      ]
+    },
+    {
+      "name": "ph-hunters",
+      "description": "Hunter strategy and profile optimization skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/hunters/ph-hunter-finder",
+        "./skills/hunters/ph-profile-optimizer"
+      ]
+    },
+    {
+      "name": "ph-pricing",
+      "description": "Pricing and promotional offer skills for Product Hunt launches",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/pricing/ph-launch-offers",
+        "./skills/pricing/ph-pricing-psychology"
+      ]
+    },
+    {
+      "name": "ph-analytics",
+      "description": "Analytics setup and conversion tracking skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/analytics/ph-analytics-setup",
+        "./skills/analytics/ph-conversion-tracking"
+      ]
+    },
+    {
+      "name": "ph-post-launch",
+      "description": "Post-launch optimization skills: follow-up, content recycling, relaunch, SEO",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/post-launch/ph-post-launch-followup",
+        "./skills/post-launch/ph-content-recycling",
+        "./skills/post-launch/ph-relaunch-strategy",
+        "./skills/post-launch/ph-seo-benefits"
+      ]
+    },
+    {
+      "name": "ph-awards",
+      "description": "Newsletter featuring and Golden Kitty Awards strategy skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/awards/ph-newsletter-pitch",
+        "./skills/awards/ph-golden-kitty"
+      ]
+    },
+    {
+      "name": "ph-complete",
+      "description": "Complete Product Hunt launch skills collection - all 25 skills for end-to-end launch success",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/strategy/ph-launch-strategy",
+        "./skills/strategy/ph-competitor-analysis",
+        "./skills/strategy/ph-timing-optimizer",
+        "./skills/content/ph-tagline-writer",
+        "./skills/content/ph-description-writer",
+        "./skills/content/ph-maker-comment",
+        "./skills/content/ph-thumbnail-creator",
+        "./skills/content/ph-gallery-assets",
+        "./skills/content/ph-video-demo",
+        "./skills/marketing/ph-email-strategy",
+        "./skills/marketing/ph-social-media-launch",
+        "./skills/marketing/ph-community-outreach",
+        "./skills/marketing/ph-supporter-network",
+        "./skills/launch-day/ph-launch-day-checklist",
+        "./skills/launch-day/ph-comment-responder",
+        "./skills/launch-day/ph-real-time-monitor",
+        "./skills/compliance/ph-ban-prevention",
+        "./skills/compliance/ph-algorithm-guide",
+        "./skills/compliance/ph-safe-messaging",
+        "./skills/hunters/ph-hunter-finder",
+        "./skills/hunters/ph-profile-optimizer",
+        "./skills/pricing/ph-launch-offers",
+        "./skills/pricing/ph-pricing-psychology",
+        "./skills/analytics/ph-analytics-setup",
+        "./skills/analytics/ph-conversion-tracking",
+        "./skills/post-launch/ph-post-launch-followup",
+        "./skills/post-launch/ph-content-recycling",
+        "./skills/post-launch/ph-relaunch-strategy",
+        "./skills/post-launch/ph-seo-benefits",
+        "./skills/awards/ph-newsletter-pitch",
+        "./skills/awards/ph-golden-kitty"
+      ]
+    }
+  ]
+}
