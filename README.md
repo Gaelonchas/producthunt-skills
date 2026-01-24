@@ -1,57 +1,166 @@
-# Product Hunt Launch Skills
+<p align="center">
+  <img src="https://img.shields.io/badge/Skills-31-brightgreen" alt="31 Skills">
+  <img src="https://img.shields.io/badge/License-MIT-blue" alt="MIT License">
+  <img src="https://img.shields.io/badge/PRs-Welcome-orange" alt="PRs Welcome">
+  <img src="https://img.shields.io/github/stars/yoanbernabeu/producthunt-skills?style=social" alt="GitHub Stars">
+</p>
 
-A comprehensive collection of **31 AI agent skills** for launching products on Product Hunt. Expert guidance for every phase of your launch - from strategic planning to post-launch optimization.
+<h1 align="center">Product Hunt Launch Skills</h1>
 
-## Installation
+<p align="center">
+  <strong>31 AI Agent Skills to launch your product on Product Hunt like a pro.</strong><br>
+  Strategy, content, marketing, compliance, analytics — everything you need.
+</p>
 
-### Method 1: npx add-skill (Recommended)
+<p align="center">
+  <a href="#quick-install">Install</a> •
+  <a href="#all-31-skills">Skills</a> •
+  <a href="#example-usage">Usage</a> •
+  <a href="#contributing">Contribute</a>
+</p>
 
-Works with Claude Code, Cursor, Codex, OpenCode, and 20+ other agents:
+---
+
+## Quick Install
 
 ```bash
-# Install all skills
 npx add-skill yoanbernabeu/producthunt-skills
-
-# Install specific skill
-npx add-skill yoanbernabeu/producthunt-skills --skill ph-launch-strategy
-
-# Install globally
-npx add-skill yoanbernabeu/producthunt-skills --global
-
-# List available skills
-npx add-skill yoanbernabeu/producthunt-skills --list
 ```
 
-### Method 2: npx skills add (Vercel CLI)
+**That's it.** Works with Claude Code, Cursor, Codex, OpenCode, Windsurf, and 20+ AI agents.
+
+### One-Liners
 
 ```bash
+# Install everything (31 skills)
+npx add-skill yoanbernabeu/producthunt-skills
+
+# Install only strategy skills
+npx add-skill yoanbernabeu/producthunt-skills --skill ph-launch-strategy
+
+# Install globally (available in all projects)
+npx add-skill yoanbernabeu/producthunt-skills --global
+
+# List all available skills
+npx add-skill yoanbernabeu/producthunt-skills --list
+
+# Alternative: Vercel CLI
 npx skills add yoanbernabeu/producthunt-skills
 ```
 
-### Method 3: Claude Code Plugin
+### Other Installation Methods
+
+<details>
+<summary><strong>Claude Code Plugin</strong></summary>
 
 ```bash
 /plugin marketplace add yoanbernabeu/producthunt-skills
 /plugin install ph-complete@producthunt-launch-skills
 ```
+</details>
 
-### Method 4: Manual Installation
+<details>
+<summary><strong>Manual Installation</strong></summary>
 
 Copy the `skills/` directory to:
 - **Global**: `~/.claude/skills/` (or `~/.cursor/skills/`, etc.)
 - **Project**: `.claude/skills/` (or `.cursor/skills/`, etc.)
+</details>
 
-## Supported AI Agents
+---
 
-| Agent | Project Path | Global Path |
-|-------|-------------|-------------|
-| Claude Code | `.claude/skills/` | `~/.claude/skills/` |
-| Cursor | `.cursor/skills/` | `~/.cursor/skills/` |
-| Codex | `.codex/skills/` | `~/.codex/skills/` |
-| OpenCode | `.opencode/skill/` | `~/.config/opencode/skill/` |
-| Windsurf | `.windsurf/skills/` | `~/.windsurf/skills/` |
+## Why These Skills?
 
-## Available Skill Packs
+Launching on Product Hunt is **hard**. One wrong move and you're shadow-banned. Miss the algorithm's sweet spot and you're buried. These skills give your AI agent **expert-level knowledge** so you don't have to learn the hard way.
+
+| Challenge | Skill That Helps |
+|-----------|------------------|
+| "What day should I launch?" | `ph-timing-optimizer` |
+| "My tagline sucks" | `ph-tagline-writer` |
+| "How do I avoid getting banned?" | `ph-ban-prevention` |
+| "What do I do on launch day?" | `ph-launch-day-checklist` |
+| "How do I find a hunter?" | `ph-hunter-finder` |
+
+---
+
+## All 31 Skills
+
+### Strategy & Planning
+| Skill | What It Does |
+|-------|--------------|
+| `ph-launch-strategy` | Define objectives, create 4-6 week timeline |
+| `ph-competitor-analysis` | Analyze competing launches, benchmark top performers |
+| `ph-timing-optimizer` | Choose optimal day/time for your goals |
+
+### Content Creation
+| Skill | What It Does |
+|-------|--------------|
+| `ph-tagline-writer` | Craft compelling taglines under 60 characters |
+| `ph-description-writer` | Write converting descriptions (AIDA, PAS, FAB) |
+| `ph-maker-comment` | Create authentic first comments |
+| `ph-thumbnail-creator` | Design scroll-stopping thumbnails and GIFs |
+| `ph-gallery-assets` | Build compelling image galleries |
+| `ph-video-demo` | Script and structure demo videos (30-60s) |
+
+### Marketing & Outreach
+| Skill | What It Does |
+|-------|--------------|
+| `ph-email-strategy` | Plan email waves across timezones |
+| `ph-social-media-launch` | Coordinate Twitter/LinkedIn/Facebook |
+| `ph-community-outreach` | Engage Reddit, Indie Hackers, HN |
+| `ph-supporter-network` | Build and activate your network |
+
+### Launch Day
+| Skill | What It Does |
+|-------|--------------|
+| `ph-launch-day-checklist` | Hour-by-hour execution plan |
+| `ph-comment-responder` | Respond effectively to comments (< 9 min) |
+| `ph-real-time-monitor` | Track and adjust in real-time |
+
+### Compliance & Risk
+| Skill | What It Does |
+|-------|--------------|
+| `ph-ban-prevention` | Avoid shadow bans and penalties |
+| `ph-algorithm-guide` | Understand ranking factors |
+| `ph-safe-messaging` | Use approved language patterns |
+
+### Hunters & Profile
+| Skill | What It Does |
+|-------|--------------|
+| `ph-hunter-finder` | Find and approach top hunters |
+| `ph-profile-optimizer` | Build maker reputation |
+
+### Pricing & Offers
+| Skill | What It Does |
+|-------|--------------|
+| `ph-launch-offers` | Create exclusive PH deals |
+| `ph-pricing-psychology` | Leverage FOMO and urgency |
+
+### Analytics
+| Skill | What It Does |
+|-------|--------------|
+| `ph-analytics-setup` | Configure tracking tools |
+| `ph-conversion-tracking` | Measure launch performance and ROI |
+
+### Post-Launch
+| Skill | What It Does |
+|-------|--------------|
+| `ph-post-launch-followup` | Thank supporters, collect reviews |
+| `ph-content-recycling` | Repurpose launch assets |
+| `ph-relaunch-strategy` | Plan your next launch (v2.0) |
+| `ph-seo-benefits` | Maximize SEO value from PH backlink |
+
+### Awards & Features
+| Skill | What It Does |
+|-------|--------------|
+| `ph-newsletter-pitch` | Get featured in PH newsletter |
+| `ph-golden-kitty` | Strategy for Golden Kitty Awards |
+
+---
+
+## Skill Packs
+
+Install skills by category:
 
 | Pack | Skills | Description |
 |------|--------|-------------|
@@ -65,113 +174,67 @@ Copy the `skills/` directory to:
 | `ph-analytics` | 2 | Analytics setup and conversion tracking |
 | `ph-post-launch` | 4 | Follow-up, content recycling, relaunch |
 | `ph-awards` | 2 | Newsletter featuring, Golden Kitty |
-| **`ph-complete`** | **31** | **All skills - complete launch toolkit** |
+| **`ph-complete`** | **31** | **All skills — complete launch toolkit** |
 
-## All 31 Skills
+---
 
-### Strategy & Planning
-| Skill | Description |
-|-------|-------------|
-| `ph-launch-strategy` | Define objectives, create 4-6 week timeline |
-| `ph-competitor-analysis` | Analyze competing launches, benchmark top performers |
-| `ph-timing-optimizer` | Choose optimal day/time for your goals |
+## Supported AI Agents
 
-### Content Creation
-| Skill | Description |
-|-------|-------------|
-| `ph-tagline-writer` | Craft compelling taglines under 60 characters |
-| `ph-description-writer` | Write converting product descriptions (AIDA, PAS, FAB) |
-| `ph-maker-comment` | Create authentic first comments |
-| `ph-thumbnail-creator` | Design scroll-stopping thumbnails and GIFs |
-| `ph-gallery-assets` | Build compelling image galleries |
-| `ph-video-demo` | Script and structure demo videos (30-60s) |
+| Agent | Project Path | Global Path |
+|-------|--------------|-------------|
+| Claude Code | `.claude/skills/` | `~/.claude/skills/` |
+| Cursor | `.cursor/skills/` | `~/.cursor/skills/` |
+| Codex | `.codex/skills/` | `~/.codex/skills/` |
+| OpenCode | `.opencode/skill/` | `~/.config/opencode/skill/` |
+| Windsurf | `.windsurf/skills/` | `~/.windsurf/skills/` |
 
-### Marketing & Outreach
-| Skill | Description |
-|-------|-------------|
-| `ph-email-strategy` | Plan email waves across timezones |
-| `ph-social-media-launch` | Coordinate Twitter/LinkedIn/Facebook |
-| `ph-community-outreach` | Engage Reddit, Indie Hackers, HN |
-| `ph-supporter-network` | Build and activate your network |
+---
 
-### Launch Day
-| Skill | Description |
-|-------|-------------|
-| `ph-launch-day-checklist` | Hour-by-hour execution plan |
-| `ph-comment-responder` | Respond effectively to comments (< 9 min) |
-| `ph-real-time-monitor` | Track and adjust in real-time |
+## Example Usage
 
-### Compliance & Risk
-| Skill | Description |
-|-------|-------------|
-| `ph-ban-prevention` | Avoid shadow bans and penalties |
-| `ph-algorithm-guide` | Understand ranking factors |
-| `ph-safe-messaging` | Use approved language patterns |
+Just ask your AI agent:
 
-### Hunters & Profile
-| Skill | Description |
-|-------|-------------|
-| `ph-hunter-finder` | Find and approach top hunters |
-| `ph-profile-optimizer` | Build maker reputation |
+```
+"Help me plan my Product Hunt launch"
 
-### Pricing & Offers
-| Skill | Description |
-|-------|-------------|
-| `ph-launch-offers` | Create exclusive PH deals |
-| `ph-pricing-psychology` | Leverage FOMO and urgency |
+"Write a tagline for my SaaS product"
 
-### Analytics
-| Skill | Description |
-|-------|-------------|
-| `ph-analytics-setup` | Configure tracking tools |
-| `ph-conversion-tracking` | Measure launch performance and ROI |
+"Create a launch day checklist"
 
-### Post-Launch
-| Skill | Description |
-|-------|-------------|
-| `ph-post-launch-followup` | Thank supporters, collect reviews |
-| `ph-content-recycling` | Repurpose launch assets |
-| `ph-relaunch-strategy` | Plan your next launch (v2.0) |
-| `ph-seo-benefits` | Maximize SEO value from PH backlink |
+"Check if my email is PH-compliant"
 
-### Awards & Features
-| Skill | Description |
-|-------|-------------|
-| `ph-newsletter-pitch` | Get featured in PH newsletter |
-| `ph-golden-kitty` | Strategy for Golden Kitty Awards |
+"When is the best day to launch?"
 
-## Quick Start
+"How do I avoid getting shadow-banned?"
 
-1. **Install skills**: `npx add-skill yoanbernabeu/producthunt-skills`
-2. **Plan**: Start with `ph-launch-strategy` to define goals
-3. **Time**: Use `ph-timing-optimizer` to pick launch date
-4. **Create**: Work through content skills for assets
-5. **Launch**: Execute with `ph-launch-day-checklist`
-6. **Optimize**: Follow up with post-launch skills
+"Find hunters in the AI/developer tools space"
+```
+
+---
 
 ## Key Product Hunt Rules
 
 | Rule | Why It Matters |
-|------|---------------|
-| **Never ask for upvotes** | Ask for "support" or "feedback" instead - violating this can get you banned |
+|------|----------------|
+| **Never ask for upvotes** | Ask for "support" or "feedback" instead — violating this = ban |
 | **Launch at 12:01 AM PST** | Maximize your 24-hour window |
 | **First 4 hours are critical** | Algorithm weights early momentum heavily |
 | **Respond to every comment** | Engagement depth boosts ranking |
 | **Stagger your outreach** | All-at-once looks spammy to algorithm |
 
-## Example Usage
+---
 
-Ask your AI agent:
+## Quick Start Guide
 
-```
-"Help me prepare for my Product Hunt launch using the ph-launch-strategy skill"
+1. **Install**: `npx add-skill yoanbernabeu/producthunt-skills`
+2. **Plan**: Start with `ph-launch-strategy` to define goals
+3. **Time**: Use `ph-timing-optimizer` to pick launch date
+4. **Create**: Work through content skills for assets
+5. **Comply**: Review with `ph-ban-prevention` before launch
+6. **Launch**: Execute with `ph-launch-day-checklist`
+7. **Optimize**: Follow up with post-launch skills
 
-"Write a tagline for my product using ph-tagline-writer"
-
-"Create a launch day checklist using ph-launch-day-checklist"
-
-"Review my email for compliance using ph-safe-messaging"
-```
+---
 
 ## Resources
 
@@ -180,18 +243,29 @@ Ask your AI agent:
 - [Community Guidelines](https://help.producthunt.com/en/articles/3615694-community-guidelines)
 - [add-skill CLI Documentation](https://add-skill.org)
 
+---
+
 ## Contributing
 
-Contributions welcome! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Follow the SKILL.md format
-4. Submit a pull request
+Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-## License
+```bash
+# Fork, clone, and create a branch
+git checkout -b feature/new-skill
 
-MIT License - Feel free to use, modify, and distribute.
+# Add your skill following the SKILL.md format
+# Submit a pull request
+```
 
 ---
 
-Star ⭐ this repo if it helps you launch!
+## License
+
+[MIT](LICENSE) — Feel free to use, modify, and distribute.
+
+---
+
+<p align="center">
+  <strong>Built by the community, for the community.</strong><br><br>
+  <a href="https://github.com/yoanbernabeu/producthunt-skills">Star this repo</a> if it helps you launch!
+</p>
