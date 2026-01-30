@@ -31,7 +31,7 @@ What actually happens.
 ## Environment
 
 - AI Agent: (Claude Code / Cursor / Codex / etc.)
-- Installation method: (npx add-skill / manual / plugin)
+- Installation method: (npx skills add / manual / plugin)
 - OS:
 
 ## Additional Context

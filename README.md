@@ -24,28 +24,31 @@
 ## Quick Install
 
 ```bash
-npx add-skill yoanbernabeu/producthunt-skills
+npx skills add yoanbernabeu/producthunt-skills
 ```
 
-**That's it.** Works with Claude Code, Cursor, Codex, OpenCode, Windsurf, and 20+ AI agents.
+**That's it.** Works with Claude Code, Cursor, Codex, OpenCode, Windsurf, and 30+ AI agents.
 
 ### One-Liners
 
 ```bash
 # Install everything (31 skills)
-npx add-skill yoanbernabeu/producthunt-skills
+npx skills add yoanbernabeu/producthunt-skills
 
 # Install only strategy skills
-npx add-skill yoanbernabeu/producthunt-skills --skill ph-launch-strategy
+npx skills add yoanbernabeu/producthunt-skills --skill ph-launch-strategy
 
 # Install globally (available in all projects)
-npx add-skill yoanbernabeu/producthunt-skills --global
+npx skills add yoanbernabeu/producthunt-skills -g
 
 # List all available skills
-npx add-skill yoanbernabeu/producthunt-skills --list
+npx skills add yoanbernabeu/producthunt-skills --list
 
-# Alternative: Vercel CLI
-npx skills add yoanbernabeu/producthunt-skills
+# Install to specific agents
+npx skills add yoanbernabeu/producthunt-skills -a claude-code -a cursor
+
+# Non-interactive (CI/CD friendly)
+npx skills add yoanbernabeu/producthunt-skills --all -y
 ```
 
 ### Other Installation Methods
@@ -226,7 +229,7 @@ Just ask your AI agent:
 
 ## Quick Start Guide
 
-1. **Install**: `npx add-skill yoanbernabeu/producthunt-skills`
+1. **Install**: `npx skills add yoanbernabeu/producthunt-skills`
 2. **Plan**: Start with `ph-launch-strategy` to define goals
 3. **Time**: Use `ph-timing-optimizer` to pick launch date
 4. **Create**: Work through content skills for assets
@@ -241,7 +244,8 @@ Just ask your AI agent:
 - [Product Hunt Help Center](https://help.producthunt.com)
 - [Product Hunt Launch Guide](https://www.producthunt.com/launch)
 - [Community Guidelines](https://help.producthunt.com/en/articles/3615694-community-guidelines)
-- [add-skill CLI Documentation](https://add-skill.org)
+- [Skills CLI](https://github.com/vercel-labs/skills) - The open agent skills tool
+- [Skills Directory](https://skills.sh) - Browse available skills
 
 ---
 

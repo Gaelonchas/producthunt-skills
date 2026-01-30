@@ -5,9 +5,21 @@
     "email": "contact@yoandev.co"
   },
   "metadata": {
-    "description": "Comprehensive skills collection for launching products on Product Hunt - from strategy to post-launch optimization",
     "version": "1.0.0",
-    "repository": "https://github.com/yoanbernabeu/producthunt-skills"
+    "description": "Comprehensive skills collection for launching products on Product Hunt - from strategy to post-launch optimization",
+    "license": "MIT",
+    "repository": "https://github.com/yoanbernabeu/producthunt-skills",
+    "keywords": [
+      "product-hunt",
+      "launch",
+      "marketing",
+      "startup",
+      "saas",
+      "indie-hacker",
+      "ai-agents",
+      "growth",
+      "conversion"
+    ]
   },
   "plugins": [
     {
@@ -123,7 +135,7 @@
     },
     {
       "name": "ph-complete",
-      "description": "Complete Product Hunt launch skills collection - all 25 skills for end-to-end launch success",
+      "description": "Complete Product Hunt launch skills collection - all 31 skills for end-to-end launch success",
       "source": "./",
       "strict": false,
       "skills": [

@@ -74,12 +74,12 @@ These skills are designed to be used with AI coding agents like Claude Code, Cur
 ## Installation
 
 ```bash
-npx add-skill yoanbernabeu/producthunt-skills
+npx skills add yoanbernabeu/producthunt-skills
 ```
 
 Or install specific skills:
 ```bash
-npx add-skill yoanbernabeu/producthunt-skills --skill ph-launch-strategy
+npx skills add yoanbernabeu/producthunt-skills --skill ph-launch-strategy
 ```
 
 ## License
